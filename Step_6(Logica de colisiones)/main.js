@@ -19,6 +19,9 @@ Objetos:
   var bar_2 = new Bar(20,100,40,100,board);
   var bar = new Bar(735,100,40,100,board);
 
+  var bar3 = new Bar(0,0,800,2,board);
+  var bar4 = new Bar(0,398,800,2,board);
+
   var ball = new Ball(350,100,10,board);
 
   document.addEventListener("keydown", function(ev){
